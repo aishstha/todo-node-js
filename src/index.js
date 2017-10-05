@@ -19,6 +19,6 @@ app.use(errorHandler.genericErrorHandler);
 app.use(errorHandler.notFoundError);
 
 app.listen(port, () => {
-    console.log(`Node app is running on port, ${port}`);
+    console.log(`Node app is RUNNING on port, ${port}`);
 });
 
